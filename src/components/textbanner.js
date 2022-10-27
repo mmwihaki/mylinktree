@@ -1,16 +1,14 @@
 import React from 'react'
 
-const TextBanner = 0 => {
+const TextBanner = props => {
 
     const {
-        title, 
-        text
+        title
     } = props
 
     return (
         <div>
             <h1>{title}</h1>
-            <p>{text}</p>
         </div>
     )
 }

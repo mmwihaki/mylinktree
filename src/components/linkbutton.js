@@ -3,7 +3,7 @@ import {Button} from 'reactstrap'
 
 const LinkButton = props => {
     const {
-        name, 
+        name,
         title, 
         link
     } = props
