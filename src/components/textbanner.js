@@ -1,10 +1,10 @@
 import React from 'react'
 
-const textbanner = 0 => {
+const TextBanner = 0 => {
 
     return (
         
     )
 }
 
-export default textbanner
+export default TextBanner

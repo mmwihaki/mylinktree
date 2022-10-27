@@ -1,10 +1,10 @@
 import React from 'react'
 
-const profilepic = 0 => {
+const ProfilePic = 0 => {
 
     return (
         
     )
 }
 
-export default profilepic
+export default ProfilePic
