@@ -1,6 +1,40 @@
+@font-face {
+    font-family: Inter;
+    src: url(Inter-Regular.ttf);
+  }
+
 body {
     background: #F4F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 64px 112px;
+    gap: 24px;
+    position: absolute;
+    height: 998px;
+    left: 0px;
+    top: 0px;
 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;
+
+    width: 1152px;
+    height: 774px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 html {
@@ -14,7 +48,6 @@ html {
 #main{
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 0px 32px;
     gap: 32px;
     width: 1216px;
@@ -26,9 +59,52 @@ html {
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+
+}
+
+.profile{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+
+    width: 1152px;
+    height: 142px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    text-decoration: none;
+    width: 1152px;
+    height: 76px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.btn{
     box-sizing: border-box;
 
     /* Auto layout */
@@ -39,7 +115,6 @@ html {
     align-items: center;
     padding: 24px 32px;
     gap: 8px;
-
     width: 1152px;
     height: 76px;
 
@@ -56,30 +131,118 @@ html {
     flex: none;
     order: 0;
     flex-grow: 1;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+/* Gray/900 */
+
+color: #101828;
 }
 
-.btn{
-    box-sizing: border-box;
+a:-webkit-any-link {
+    text-decoration: none;
+}
 
-    /* Auto layout */
+#twitter{
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 24px 32px;
+    padding: 0px;
     gap: 8px;
+    font-weight: bolder;
 
+    
     width: 1152px;
-    height: 76px;
+    height: 30px;
 
-    /* Gray/200 */
 
-    background: #EAECF0;
-    /* Gray/200 */
+    /* Inside auto layout */
 
-    border: 1px solid #EAECF0;
-    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    gap: 64px;
+
+    height: 72px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.socialContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 32px;
+
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.socialContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    height: 24px;
+
 
     /* Inside auto layout */
 
