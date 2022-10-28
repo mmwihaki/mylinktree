@@ -7,11 +7,12 @@ import './App.css'
 
 function App() {
   return (
-    <div style={{ textAlign: "center" }}>
+    <div id='main'>
       <ProfilePic picture={picture} />
       <TextBanner title='Annette Black' />
+
       <div style={{ marginBottom: "50px" }}>
-        <LinkButton id='' name='Twitter Link' title='' link='#'/>
+        <LinkButton class='button' id='' name='Twitter Link' title='' link='#'/>
         <LinkButton id='btn__zuri' name='Zuri Team' link='https://training.zuri.team/' />
         <LinkButton id='books' name='Zuri Books' link='http://books.zuri.team' />
         <LinkButton id='book__python' name='Python Books' link='https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>' />

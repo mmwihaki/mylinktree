@@ -10,7 +10,8 @@ const LinkButton = props => {
 
     const myStyles = ({
         myMargin: {
-            marginBottom: "20px"
+            marginBottom: "20px",
+
         },
         btnText: {
             fontFamily: "Monaco",
@@ -22,8 +23,10 @@ const LinkButton = props => {
         btn: {
             boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 15px 20px 0 rgba(0, 0, 0, 0.1)",
             fontFamily: "Monaco",
-            width: "15rem"
-        }
+            width: '1152px',
+            // height: '76px',
+        },
+
     })
 
     return (
