@@ -1,6 +1,6 @@
 import React from 'react'
 
-const socialMedia = props => {
+const Footer = props => {
     const {
         logo
     } = props
@@ -10,4 +10,4 @@ const socialMedia = props => {
     )
 }
 
-export default ProfilePic
+export default Footer
