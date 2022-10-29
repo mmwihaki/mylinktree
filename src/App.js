@@ -8,6 +8,8 @@ import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import ZuriLogo from './zuri.png';
 import IFGLogo from './igf.png'
+import AvatarShare from './components/AvatarShare';
+import shareIcon from './share.png'
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <div class='profile'>
         <ProfilePic picture={picture} />
         <TextBanner id='twitter' title='Annette Black' />
+        <AvatarShare share={shareIcon} />
         </div>
 
         <div>
