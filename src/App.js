@@ -5,6 +5,7 @@ import ProfilePic from './components/ProfilePic';
 import picture from './profilephoto.png';
 import './App.css'
 import Footer from './components/Footer';
+import SocialMedia from './components/SocialMedia';
 
 function App() {
   return (
@@ -28,15 +29,16 @@ function App() {
           <div class='socialContainer'>
             <div class='socialContent'>
               <div class='socialIcons'>
-                
+                <SocialMedia/>
               </div>
             </div>
           </div>
         </div>
-
       </div>
 
-        <Footer/>
+      <Footer class='footer'
+        text="HNG Internship 9 Frontend Task"
+      />
 
     </div>
   )

@@ -250,3 +250,39 @@ a:-webkit-any-link {
     order: 0;
     flex-grow: 1;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0px;
+    gap: 64px;
+
+    position: absolute;
+    width: 1440px;
+    height: 160px;
+    left: 0px;
+    top: 998px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 32px;
+
+    width: 1280px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
