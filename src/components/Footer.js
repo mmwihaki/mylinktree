@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Footer = props => {
     const {
         alt,
@@ -10,20 +11,32 @@ const Footer = props => {
 
     const myStyles = ({
         footer: {
-            size: '24px'
-        },
-        footer2: {
-            size: '24px'
-            
+            width: '187.59px',
+            flex: 'none',
+            order: '0',
+            flexGrow: '0'
         },
         footer3: {
-            width: '832.28px',
-            height: '24px',
+            width: '132.13px',
+            flex: 'none',
+            order: '2',
+            flexGrow: '0',
+            paddingLeft: '1083.87px',
+            
+        },
+
+        // footerContainer:{
+        //     display: 'flex',
+        //     margin: '10px',
+        //     padding: '20px',
+        //     alignItems: 'justify'
+        // },
+ 
+        footer2: {
             fontFamily: 'Inter', 
             fontStyle: 'normal',
             fontWeight: '400',
             fontSize: '16px',
-            lineHeight: '24px',   
             textAlign: 'center',
             color: '#667085',
             flex: 'none',
@@ -32,12 +45,10 @@ const Footer = props => {
         }
     })
     return (
-        <div>
-            < a href='test.com' alt={alt} src={ZuriLogo}></a>
-
-            <a style={myStyles.footer} alt={alt} src={ZuriLogo} />
-            <p style={myStyles.footer3}>{text}</p>
-            <a style={myStyles.footer2} alt={alt} src={IFGLogo}/>
+        <div style={myStyles.footerContainer} >
+            <img style={myStyles.footer} src={ZuriLogo} alt={alt} />
+            <p style={myStyles.footer2}>{text}</p>
+            <img style={myStyles.footer3} src={IFGLogo} alt={alt} />
         </div>
     )
 }

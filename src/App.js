@@ -6,7 +6,7 @@ import picture from './profilephoto.png';
 import './App.css';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
-import ZuriLogo from './zuri.png'
+import ZuriLogo from './zuri.png';
 import IFGLogo from './igf.png'
 
 
@@ -41,9 +41,10 @@ function App() {
         <div className='footerSection'>
           <div className='footerContainer'>
             <div className='footerContent'>
-              <div className='FooterLogo'>
-                <Footer ZuriLogo={ZuriLogo} />
-              </div>
+                <Footer className='footerItems'
+                  ZuriLogo={ZuriLogo}
+                  text = 'HNG Internship 9 Frontend Task'
+                  IFGLogo={IFGLogo} />
             </div>
           </div>
         </div>
