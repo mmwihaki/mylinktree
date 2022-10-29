@@ -4,7 +4,6 @@ import TextBanner from './components/TextBanner';
 import ProfilePic from './components/ProfilePic';
 import picture from './profilephoto.png';
 import './App.css';
-import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import ZuriLogo from './zuri.png';
 import IFGLogo from './igf.png'
@@ -29,16 +28,6 @@ function App() {
           <LinkButton id='book__python' name='Python Books' link='https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>' />
           <LinkButton id='pitch' name='Background Check for Coders' link='https://background.zuri.team/' />
           <LinkButton id='book__design' name='Design books' link='https://books.zuri.team/design-rules' />
-        </div>
-
-        <div className='socialSection'>
-          <div className='socialContainer'>
-            <div className='socialContent'>
-              <div className='socialIcons'>
-                <SocialMedia/>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className='footerSection'>
