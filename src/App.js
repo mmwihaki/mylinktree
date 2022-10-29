@@ -5,7 +5,9 @@ import ProfilePic from './components/ProfilePic';
 import picture from './profilephoto.png';
 import './App.css';
 import SocialMedia from './components/SocialMedia';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import ZuriLogo from './zuri.png'
+import IFGLogo from './igf.png'
 
 
 function App() {
@@ -36,15 +38,16 @@ function App() {
           </div>
         </div>
 
-        <div className=''>
-          <div className=''>
-            <div className=''>
-              <div className=''>
-                <Foooter/>
+        <div className='footerSection'>
+          <div className='footerContainer'>
+            <div className='footerContent'>
+              <div className='FooterLogo'>
+                <Footer ZuriLogo={ZuriLogo} />
               </div>
             </div>
           </div>
         </div>
+
       </div>
 
     </div>

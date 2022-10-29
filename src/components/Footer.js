@@ -33,9 +33,11 @@ const Footer = props => {
     })
     return (
         <div>
-            <img style={myStyles.footer} alt={alt}>{ZuriLogo}</img>
+            < a href='test.com' alt={alt} src={ZuriLogo}></a>
+
+            <a style={myStyles.footer} alt={alt} src={ZuriLogo} />
             <p style={myStyles.footer3}>{text}</p>
-            <img style={myStyles.footer2} alt={alt}>{IFGLogo}</img>
+            <a style={myStyles.footer2} alt={alt} src={IFGLogo}/>
         </div>
     )
 }
