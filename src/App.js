@@ -18,7 +18,7 @@ function App() {
       <div class='content'>
         <div class='profile'>
           <ProfilePic picture={picture} />
-          <TextBanner id='twitter' title='Annette Black' />
+          <TextBanner id='twitter' title='Mary Mwihaki' />
           <AvatarShare share={shareIcon} />
         </div>
 
