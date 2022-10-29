@@ -17,13 +17,13 @@ function App() {
     <div id='main'>
       <div class='content'>
         <div class='profile'>
-        <ProfilePic picture={picture} />
-        <TextBanner id='twitter' title='Annette Black' />
-        <AvatarShare share={shareIcon} />
+          <ProfilePic picture={picture} />
+          <TextBanner id='twitter' title='Annette Black' />
+          <AvatarShare share={shareIcon} />
         </div>
 
         <div>
-          <LinkButton  className='btn' id='' name='Twitter Link' title='' link='#'/>
+          <LinkButton id='' name='Twitter Link' title='' link='#'/>
           <LinkButton id='btn__zuri' name='Zuri Team' link='https://training.zuri.team/' />
           <LinkButton id='books' name='Zuri Books' link='http://books.zuri.team' />
           <LinkButton id='book__python' name='Python Books' link='https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>' />
