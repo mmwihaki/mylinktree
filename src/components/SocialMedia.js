@@ -1,31 +1,48 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faSlack,
+    faGithub
+  } from '@fortawesome/free-brands-svg-icons';
 
 const SocialMedia = props => {
     const {
         alt,
         logo,
-        logo2,
-        logo3
+        logo2
     } = props 
-
+   
     const myStyles = ({
-        footer: {
-            size: '24px'
+        gitIcon: {
+            color: 'black',
+            paddingTop: '24px'
+        }, 
+
+        slackIcon: {
+            fill: 'linear-gradient(-120DEG, #3EB991, #6ECADC, #E9A820, #E01563)',
+            paddingTop: '24px'
         },
-        footer2: {
-            size: '24px'
-            
-        },
-        footer3: {
-            size: '24px'
-            
+        
+        socialContainer: {
+            display: 'flex',
+            flexDirection: 'row', 
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: '0px',
+            gap: '24px', 
+            width: '1152px',
+            height: '24px',
+            flex: 'none',
+            order: '0',
+            flexGrow: '1'
         }
+        
     })
+
     return (
-        <div>
-            <img style={myStyles.footer} alt={alt}>{logo}</img>
-            <img style={myStyles.footer2} alt={alt}>{logo2}</img>
-            <img style={myStyles.footer3} alt={alt}>{logo3}</img>
+        < div style={myStyles.socialContainer} className='social-container' >
+            < a style={myStyles.slackIcon} href='test.com' alt={alt} src={logo}> <FontAwesomeIcon icon={faSlack} size='3x'/></a>
+            < a style={myStyles.gitIcon} href='wtest.com' alt={alt} src={logo2}> <FontAwesomeIcon icon={faGithub} size='3x' /></a>
         </div>
     )
 }

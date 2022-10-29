@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = props => {
     const {
         alt,
-        logo,
-        logo2,
+        ZuriLogo,
+        IFGLogo,
         text
     } = props 
 
@@ -33,9 +33,9 @@ const Footer = props => {
     })
     return (
         <div>
-            <img style={myStyles.footer} alt={alt}>{logo}</img>
-            <img style={myStyles.footer2} alt={alt}>{logo2}</img>
+            <img style={myStyles.footer} alt={alt}>{ZuriLogo}</img>
             <p style={myStyles.footer3}>{text}</p>
+            <img style={myStyles.footer2} alt={alt}>{IFGLogo}</img>
         </div>
     )
 }
