@@ -1,7 +1,7 @@
 {
-  "main.css": "/mylinktree/static/css/main.50c1691e.chunk.css",
-  "main.js": "/mylinktree/static/js/main.7e0ffe79.chunk.js",
-  "main.js.map": "/mylinktree/static/js/main.7e0ffe79.chunk.js.map",
+  "main.css": "/mylinktree/static/css/main.f2a29998.chunk.css",
+  "main.js": "/mylinktree/static/js/main.c4c5b44f.chunk.js",
+  "main.js.map": "/mylinktree/static/js/main.c4c5b44f.chunk.js.map",
   "static/js/1.f12f5854.chunk.js": "/mylinktree/static/js/1.f12f5854.chunk.js",
   "static/js/1.f12f5854.chunk.js.map": "/mylinktree/static/js/1.f12f5854.chunk.js.map",
   "static/js/2.94260e88.chunk.js": "/mylinktree/static/js/2.94260e88.chunk.js",
@@ -10,8 +10,8 @@
   "runtime~main.js.map": "/mylinktree/static/js/runtime~main.058fd6f6.js.map",
   "static/media/profilephoto.png": "/mylinktree/static/media/profilephoto.47c7ebaa.png",
   "static/media/App.css": "/mylinktree/static/media/Inter-Regular.079af0e2.ttf",
-  "static/css/main.50c1691e.chunk.css.map": "/mylinktree/static/css/main.50c1691e.chunk.css.map",
+  "static/css/main.f2a29998.chunk.css.map": "/mylinktree/static/css/main.f2a29998.chunk.css.map",
   "index.html": "/mylinktree/index.html",
-  "precache-manifest.6714aa578f5c97babd5e73ab2371c6df.js": "/mylinktree/precache-manifest.6714aa578f5c97babd5e73ab2371c6df.js",
+  "precache-manifest.71f0bd093db8c16d7c1115594585690c.js": "/mylinktree/precache-manifest.71f0bd093db8c16d7c1115594585690c.js",
   "service-worker.js": "/mylinktree/service-worker.js"
 }
