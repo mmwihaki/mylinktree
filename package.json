@@ -1,7 +1,7 @@
 {
   "name": "linktree",
   "version": "0.2.1",
-  "homepage": "http://mmwihaki.github.io/mylinktree",
+  "homepage": "https://mmwihaki.github.io/mylinktree",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
